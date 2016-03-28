@@ -1,0 +1,37 @@
+    .header {
+        height: 80px;
+        background-color: rgb(57, 182, 168);
+    }
+    .headername {
+        min-width: 200px;
+        float: left;
+    }
+    .headermenu {
+        float: right;
+        margin-top: 12px;
+    }
+    ul {
+        display: table;
+        padding-right: 10px;
+        padding-top: 0;
+        font-size: small;
+        list-style-type: none;
+    }
+    .contentheader {
+        color: darkgrey;
+        text-transform: uppercase;
+    }
+    .footer {
+        text-align: right;
+        font-size: small;
+        background-color: rgb(57, 182, 168);
+    }
+    img {
+        width: 44px;
+        height: 44px;
+        margin: 0;
+        padding: 0;
+    }
+    span {
+        font-size: x-small;
+    }
