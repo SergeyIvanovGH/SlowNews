@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-@WebServlet(name = "lastnewsservlet", urlPatterns = {"/lastnews", "/"})
+@WebServlet(name = "lastnewsservlet", urlPatterns = {"/lastnews"})
 public class LastNewsServlet extends HttpServlet {
     private List<News> newsList = new ArrayList<>();
 
