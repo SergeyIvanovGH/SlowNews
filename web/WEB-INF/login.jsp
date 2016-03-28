@@ -8,31 +8,30 @@
 </head>
 <body>
 
-<%@include file="header.jspf" %>
+    <%@include file="header.jspf" %>
 
-<div class="contentwrap">
-    <div class="contentheader">
-        <h4>Login</h4>
-        <hr/>
+    <div class="contentwrap">
+        <div class="contentheader">
+            <h4>Login</h4>
+            <hr/>
+        </div>
+        <div class="contentfeed">
+            <p>Enter your registration data:</p>
+            <form name="loginform" method="GET">
+                <label for="login">E-Mail:</label>
+                <div>
+                    <input id="login" name="login" type="email"/>
+                </div>
+                <label for="passwd">Password:</label>
+                <div>
+                    <input id="passwd" name="passwd" type="password">
+                </div>
+                <p><input value="Submit" id="btnSubmit" type="submit"></p>
+            </form>
+        </div>
     </div>
-    <div class="contentfeed">
-        <p>Enter your registration data:</p>
-        <form name="loginform" method="GET">
-            <label>E-Mail:</label>
-            <div>
-                <input name="login" type="email"/>
-            </div>
-            <label>Password:</label>
-            <div>
-                <input name="passwd" type="password">
-            </div>
-            <p/>
-            <input value="Submit" id="btnSubmit" type="submit">
-        </form>
-    </div>
-</div>
 
-<%@include file="footer.jspf" %>
+    <%@include file="footer.jspf" %>
 
 </body>
 </html>

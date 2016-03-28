@@ -7,7 +7,8 @@
         <link rel="stylesheet" href="css/main.css"/>
     </head>
     <body>
-        <%@include file="header.jspf" %>
+
+    <%@ include file="header.jspf" %>
 
         <div class="contentwrap">
             <div class="contentheader">
@@ -21,7 +22,7 @@
                     <li>
                     <img src="${news.image}">
                     <a href="#">${news.header}</a><br/>
-                    <span><c:out value="${news.date}"></c:out></span>
+                    <span>${news.date}</span>
                     </li>
                 </c:forEach>
                 </ul>

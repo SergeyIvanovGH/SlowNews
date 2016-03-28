@@ -12,10 +12,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by svivanov on 28.03.16.
- */
-@WebServlet(name = "lastnewsservlet", urlPatterns = {"/lastnews"})
+
+@WebServlet(name = "lastnewsservlet", urlPatterns = {"/lastnews", "/"})
 public class LastNewsServlet extends HttpServlet {
     private List<News> newsList = new ArrayList<>();
 
