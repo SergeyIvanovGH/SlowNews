@@ -7,19 +7,8 @@
         <link rel="stylesheet" href="css/main.css"/>
     </head>
     <body>
-        <div class = "header">
-            <div class="headername">
-                <h1>Slow News</h1>
-            </div>
-            <div>
-                <ul class="headermenu">
-                    <li><a href="lastnews">News feed</a></li>
-                    <li><a href="archivenews">Archive</a></li>
-                    <li><a href="login">Login</a></li>
-                    <li><a href="registration">Registration</a></li>
-                </ul>
-            </div>
-        </div>
+        <%@include file="header.jspf" %>
+
         <div class="contentwrap">
             <div class="contentheader">
                 <h4>News feed</h4>
@@ -38,8 +27,8 @@
                 </ul>
             </div>
         </div>
-        <div class="footer">
-            Slow News project 2016
-        </div>
+
+        <%@include file="footer.jspf" %>
+
     </body>
 </html>
